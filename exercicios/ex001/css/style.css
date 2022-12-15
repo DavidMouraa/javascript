@@ -30,6 +30,7 @@ main
     color: black;
     margin: 30px 0px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.363);
 }
 
 main p
