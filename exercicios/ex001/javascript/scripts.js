@@ -1,10 +1,11 @@
 var date = new Date();
-var hours = 13;
+var hours = date.getHours();
+var minutes = date.getMinutes();
 
 var p = document.querySelector('#hours');
 var img = document.querySelector('#img-time');
 
-p.innerHTML = `Agora são ${hours} horas`;
+p.innerHTML = `Agora são ${hours}:${minutes} horas`;
 
 if (hours < 12)
 {
