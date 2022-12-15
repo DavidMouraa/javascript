@@ -5,7 +5,7 @@ var minutes = date.getMinutes();
 var p = document.querySelector('#hours');
 var img = document.querySelector('#img-time');
 
-p.innerHTML = `Agora são ${hours}:${minutes} horas`;
+p.innerHTML = `Agora são ${hours}:${minutes.toString().padStart(2, '0')} horas`;
 
 if (hours < 12)
 {
