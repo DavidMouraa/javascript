@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Super Contador</h1>
+    <main>
+        <form>
+            <div>
+                <label for="ini">Inicio:</label>
+                <input type="number" name="ini" id="ini">
+            </div>
+            <div>
+                <label for="fim">Fim:</label>
+                <input type="number" name="fim" id="fim">
+            </div>
+            <div>
+                <label for="passo">Passo:</label>
+                <input type="number" name="passo" id="passo">
+            </div>
+            <div>
+                <input type="button" value="Contar" onclick="contador()">
+            </div>
+        </form>
+        <p>Contando:</p>
+        <p id="res"></p>
+    </main>
+    <footer>
+        <p>&copy;DavidMoura</p>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
